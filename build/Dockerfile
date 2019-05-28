@@ -5,4 +5,4 @@ RUN apk update && \
 		git \
 		jq
 
-RUN npm install -g npm@6.1.0
+RUN npm install -g npm@6.7.0
