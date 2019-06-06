@@ -1,8 +1,8 @@
-FROM node:10.15.3-alpine
+FROM penniio/node:10.16.0
 
-RUN apk update && \
-	apk add \
-		git \
-		jq
+RUN apk --update --no-cache add \
+        git \
+        jq \
+        npm
 
 RUN npm install -g npm@6.7.0
